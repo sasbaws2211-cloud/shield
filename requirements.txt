@@ -2,7 +2,9 @@ fastapi[standard]
 uvicorn[standard]==0.24.0
 sqlalchemy==2.0.23
 sqlmodel==0.0.14
-psycopg 
+psycopg
+python-dotenv==1.0.0
+pydantic-settings==2.1.0
 alembic==1.12.1
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
